@@ -1,0 +1,33 @@
+{
+  "name": "clonespotify",
+  "version": "1.0.0",
+  "description": "Este é  um projeto de clone do Spotify, desenvolvido para fins educacionais. O objetivo é criar uma interface semelhante á do Spotify, utilizando tecnologias web modernas.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./inpit.css -o ./src/css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acomnene-source/CloneSpotify.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "Spotify",
+    "clone",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Ana Beatriz dos Santos",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/acomnene-source/CloneSpotify/issues"
+  },
+  "homepage": "https://github.com/acomnene-source/CloneSpotify#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  }
+}
